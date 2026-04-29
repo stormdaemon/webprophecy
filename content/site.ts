@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Web Prophecy",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://webprophecy.fr",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://webprophecy.netlify.app",
   baseline: "Le numerique au service des paroisses vivantes.",
   description:
     "Agence digitale catholique specialisee dans les sites web et applications modernes pour paroisses, dioceses et communautes religieuses.",

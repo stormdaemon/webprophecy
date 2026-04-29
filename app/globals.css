@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #17211f;
+  --color-gold: #d9b766;
+  --color-gold-dark: #b88d32;
+  --color-sage: #dfe8dd;
+  --color-ivory: #fbfaf6;
+  --color-clay: #9b5f43;
+  --color-stone-650: #57534e;
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-geist-serif);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-ivory);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-ink);
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+.hero-visual {
+  background:
+    linear-gradient(135deg, rgba(23, 33, 31, 0.78), rgba(23, 33, 31, 0.36)),
+    url("/images/hero-web-prophecy.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.soft-band {
+  background:
+    linear-gradient(90deg, rgba(223, 232, 221, 0.72), rgba(251, 250, 246, 0.92)),
+    url("https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

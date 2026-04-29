@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { blogArticles } from "@/content/blog";
 import { siteConfig } from "@/content/site";
 
 const routes = [
@@ -12,10 +13,12 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map((route) => ({
+  const blogRoutes = blogArticles.map((article) => `/blog/${article.slug}`);
+
+  return [...routes, "/blog", ...blogRoutes].map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === "" ? "weekly" : "monthly",
-    priority: route === "" ? 1 : route.includes("creation-site-internet-paroisse") ? 0.9 : 0.7
+    changeFrequency: route.startsWith("/blog") ? "weekly" : route === "" ? "weekly" : "monthly",
+    priority: route === "" ? 1 : route.includes("creation-site-internet-paroisse") ? 0.9 : route === "/blog" ? 0.8 : 0.65
   }));
 }

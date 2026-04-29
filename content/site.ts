@@ -18,6 +18,7 @@ export const navigation = [
   { label: "Accueil", href: "/" },
   { label: "Creer un site paroissial", href: "/creation-site-internet-paroisse" },
   { label: "Portfolio", href: "/portfolio" },
+  { label: "Blog", href: "/blog" },
   { label: "A propos", href: "/a-propos" },
   { label: "Contact", href: "/contact" }
 ];

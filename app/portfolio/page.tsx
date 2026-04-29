@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { CTA } from "@/components/sections/CTA";
 import { SectionHeader } from "@/components/sections/SectionHeader";
 import { portfolioItems } from "@/content/pages";
+import { detailedPortfolioItems } from "@/content/seo-growth";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -24,7 +26,9 @@ export default function PortfolioPage() {
             text="Chaque réalisation répond à un besoin concret : transmettre, informer, mobiliser, accueillir ou créer un lien plus direct avec une communauté."
           />
           <div className="mt-10 grid gap-6 md:grid-cols-2">
-            {portfolioItems.map((item) => (
+            {portfolioItems.map((item) => {
+              const detail = detailedPortfolioItems.find((project) => project.title === item.title);
+              return (
               <article key={item.title} className="overflow-hidden rounded-md border border-stone-200 bg-white shadow-sm">
                 <div className="relative aspect-[16/9] bg-stone-100">
                   <Image
@@ -53,14 +57,20 @@ export default function PortfolioPage() {
                       rel="noreferrer"
                       className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-ink underline"
                     >
-                    Visiter le site <ExternalLink aria-hidden="true" size={16} />
+                      Visiter le site <ExternalLink aria-hidden="true" size={16} />
                     </a>
                   ) : (
                     <p className="mt-6 text-sm font-medium text-stone-500">Lien à renseigner</p>
                   )}
+                  {detail ? (
+                    <Link href={`/portfolio/${detail.slug}`} className="mt-3 text-sm font-semibold text-ink underline">
+                      Lire l'étude de cas
+                    </Link>
+                  ) : null}
                 </div>
               </article>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

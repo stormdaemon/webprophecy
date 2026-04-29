@@ -1,10 +1,17 @@
 import type { MetadataRoute } from "next";
 import { blogArticles } from "@/content/blog";
+import { allSeoRoutes } from "@/content/seo-growth";
 import { siteConfig } from "@/content/site";
 
 const routes = [
   "",
   "/creation-site-internet-paroisse",
+  "/application-paroisse",
+  "/refonte-site-paroisse",
+  "/audit-site-paroissial",
+  "/fonctionnalites",
+  "/creation-site-web-paroisse",
+  "/glossaire",
   "/portfolio",
   "/a-propos",
   "/contact",
@@ -15,7 +22,7 @@ const routes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogRoutes = blogArticles.map((article) => `/blog/${article.slug}`);
 
-  return [...routes, "/blog", ...blogRoutes].map((route) => ({
+  return Array.from(new Set([...routes, "/blog", ...blogRoutes, ...allSeoRoutes])).map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date(),
     changeFrequency: route.startsWith("/blog") ? "weekly" : route === "" ? "weekly" : "monthly",

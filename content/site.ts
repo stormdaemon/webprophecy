@@ -24,6 +24,9 @@ export const navigation = [
 ];
 
 export const footerLinks = [
+  { label: "Audit gratuit", href: "/audit-site-paroissial" },
+  { label: "Fonctionnalités", href: "/fonctionnalites" },
+  { label: "Glossaire", href: "/glossaire" },
   { label: "Mentions légales", href: "/mentions-legales" },
   { label: "Politique de confidentialité", href: "/politique-de-confidentialite" }
 ];

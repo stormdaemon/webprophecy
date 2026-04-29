@@ -8,8 +8,8 @@ export function Footer() {
         <div>
           <p className="text-lg font-semibold">{siteConfig.name}</p>
           <p className="mt-3 max-w-md text-sm leading-7 text-stone-300">
-            Sites web, applications et systemes de communication numerique pour paroisses,
-            dioceses et communautes catholiques.
+            Sites web, applications et systèmes de communication numérique pour paroisses,
+            diocèses et communautés catholiques.
           </p>
         </div>
         <div>
@@ -36,7 +36,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-5 text-center text-xs text-stone-400">
-        © {new Date().getFullYear()} Web Prophecy. Tous droits reserves.
+        © {new Date().getFullYear()} Web Prophecy. Tous droits réservés.
       </div>
     </footer>
   );

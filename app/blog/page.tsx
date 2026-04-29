@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Blog",
   description:
-    "Articles complets sur la creation de sites paroissiaux, SEO local catholique, dons en ligne, sacrements, RGPD, accessibilite et communication numerique.",
+    "Articles complets sur la création de sites paroissiaux, SEO local catholique, dons en ligne, sacrements, RGPD, accessibilité et communication numérique.",
   path: "/blog"
 });
 
@@ -21,11 +21,11 @@ export default function BlogPage() {
               Blog Web Prophecy
             </p>
             <h1 className="mt-4 text-4xl font-semibold leading-tight text-ink sm:text-5xl">
-              Reponses concretes aux questions que les paroisses posent a Google et aux IA
+              Réponses concrètes aux questions que les paroisses posent à Google et aux IA
             </h1>
             <p className="mt-6 text-lg leading-8 text-stone-650">
-              Chaque article traite une intention de recherche precise et renvoie vers une action
-              utile : audit, refonte, formulaire, dons, horaires, SEO local ou accessibilite.
+              Chaque article traite une intention de recherche précise et renvoie vers une action
+              utile : audit, refonte, formulaire, dons, horaires, SEO local ou accessibilité.
             </p>
           </div>
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">

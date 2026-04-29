@@ -86,7 +86,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
           </div>
 
           <section className="mt-12 rounded-md border border-stone-200 bg-white p-6">
-            <h2 className="text-2xl font-semibold text-ink">Sources utilisees</h2>
+            <h2 className="text-2xl font-semibold text-ink">Sources utilisées</h2>
             <ul className="mt-5 grid gap-3">
               {article.sources.map((source) => (
                 <li key={source.url}>
@@ -104,10 +104,10 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
           </section>
 
           <section className="mt-10 rounded-md border border-gold/60 bg-sage p-6">
-            <h2 className="text-2xl font-semibold text-ink">Vous voulez appliquer cela a votre paroisse ?</h2>
+            <h2 className="text-2xl font-semibold text-ink">Vous voulez appliquer cela à votre paroisse ?</h2>
             <p className="mt-3 leading-7 text-stone-650">
-              Web Prophecy peut auditer votre site, clarifier vos priorites et transformer vos
-              pages en parcours utiles pour les fideles.
+              Web Prophecy peut auditer votre site, clarifier vos priorités et transformer vos
+              pages en parcours utiles pour les fidèles.
             </p>
             <Link href="/contact" className="mt-5 inline-flex rounded-md bg-ink px-5 py-3 text-sm font-semibold text-white hover:bg-stone-800">
               Demander un audit gratuit

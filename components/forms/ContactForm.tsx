@@ -10,8 +10,8 @@ export function ContactForm() {
   if (!formId) {
     return (
       <div className="rounded-md border border-amber-300 bg-amber-50 p-5 text-sm leading-7 text-amber-950">
-        Le formulaire est pret, mais la variable <code>NEXT_PUBLIC_FORMSPREE_FORM_ID</code> doit
-        etre renseignee pour activer l'envoi via Formspree.
+        Le formulaire est prêt, mais la variable <code>NEXT_PUBLIC_FORMSPREE_FORM_ID</code> doit
+        être renseignée pour activer l'envoi via Formspree.
       </div>
     );
   }
@@ -19,7 +19,7 @@ export function ContactForm() {
   if (state.succeeded) {
     return (
       <div className="rounded-md border border-emerald-200 bg-emerald-50 p-6 text-emerald-950">
-        Merci, votre message a bien ete envoye. Web Prophecy vous repondra rapidement.
+        Merci, votre message a bien été envoyé. Web Prophecy vous répondra rapidement.
       </div>
     );
   }
@@ -29,7 +29,7 @@ export function ContactForm() {
       <input type="text" name="_gotcha" className="hidden" tabIndex={-1} autoComplete="off" />
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="grid gap-2 text-sm font-medium text-ink">
-          Nom et prenom
+          Nom et prénom
           <input
             required
             name="name"
@@ -50,7 +50,7 @@ export function ContactForm() {
       </div>
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="grid gap-2 text-sm font-medium text-ink">
-          Telephone
+          Téléphone
           <input
             name="phone"
             autoComplete="tel"
@@ -73,8 +73,8 @@ export function ContactForm() {
           name="need"
           className="rounded-md border border-stone-300 px-4 py-3 text-base text-ink outline-none transition focus:border-gold focus:ring-2 focus:ring-gold/30"
         >
-          <option value="">Selectionner une option</option>
-          <option>Creation d'un site paroissial</option>
+          <option value="">Sélectionner une option</option>
+          <option>Création d'un site paroissial</option>
           <option>Refonte d'un ancien site</option>
           <option>Application ou PWA</option>
           <option>Formulaires et inscriptions</option>
@@ -93,12 +93,12 @@ export function ContactForm() {
       <label className="flex gap-3 text-sm leading-6 text-stone-650">
         <input required type="checkbox" name="rgpd_consent" value="oui" className="mt-1 h-4 w-4 rounded border-stone-300 text-ink" />
         <span>
-          J'accepte que Web Prophecy utilise ces informations pour repondre a ma demande. Les
-          donnees ne sont pas vendues a des tiers.
+          J'accepte que Web Prophecy utilise ces informations pour répondre à ma demande. Les
+          données ne sont pas vendues à des tiers.
         </span>
       </label>
       {state.errors ? (
-        <p className="text-sm text-red-700">L'envoi n'a pas abouti. Verifiez les champs ou reessayez dans un instant.</p>
+        <p className="text-sm text-red-700">L'envoi n'a pas abouti. Vérifiez les champs ou réessayez dans un instant.</p>
       ) : null}
       <button
         type="submit"

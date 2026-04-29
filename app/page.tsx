@@ -12,7 +12,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-ink px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
         <Image
           src="/images/hero-web-prophecy.png"
-          alt="Ordinateur affichant un site de paroisse dans une eglise lumineuse"
+          alt="Ordinateur affichant un site de paroisse dans une église lumineuse"
           fill
           priority
           sizes="100vw"
@@ -28,16 +28,16 @@ export default function HomePage() {
               Sites web et applications modernes pour paroisses catholiques
             </h1>
             <p className="mt-6 text-lg leading-8 text-stone-100 sm:text-xl">
-              Web Prophecy aide les paroisses a mieux communiquer, accueillir les fideles,
-              publier leurs horaires, gerer les demandes de sacrements et developper les dons
-              en ligne grace a des sites rapides, clairs et faciles a administrer.
+              Web Prophecy aide les paroisses à mieux communiquer, accueillir les fidèles,
+              publier leurs horaires, gérer les demandes de sacrements et développer les dons
+              en ligne grâce à des sites rapides, clairs et faciles à administrer.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/contact" className="rounded-md bg-gold px-5 py-3 text-sm font-semibold text-ink hover:bg-gold-dark">
                 Demander un audit gratuit
               </Link>
               <Link href="/creation-site-internet-paroisse" className="inline-flex items-center gap-2 rounded-md border border-white/60 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10">
-                Voir l'offre paroissiale <ArrowRight aria-hidden="true" size={18} />
+                Découvrir l'offre paroissiale <ArrowRight aria-hidden="true" size={18} />
               </Link>
             </div>
           </div>
@@ -47,9 +47,9 @@ export default function HomePage() {
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <SectionHeader
-            eyebrow="Problemes concrets"
-            title="Un site paroissial doit servir le quotidien, pas seulement presenter une vitrine."
-            text="Les fideles cherchent des informations simples. Les equipes paroissiales ont besoin d'un outil fiable, lisible et sobre."
+            eyebrow="Besoins concrets"
+            title="Un site paroissial doit d'abord rendre service."
+            text="Les fidèles cherchent des réponses simples. Les équipes paroissiales ont besoin d'un outil fiable, lisible et vivant, pas d'une vitrine figée."
           />
           <div className="grid gap-3 sm:grid-cols-2">
             {pains.map((pain) => (
@@ -66,8 +66,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl">
           <SectionHeader
             eyebrow="Services"
-            title="Des outils numeriques simples pour servir la mission pastorale"
-            text="Web Prophecy construit des parcours utiles pour les paroissiens, les familles, les benevoles et les secretariats."
+            title="Des outils numériques simples pour servir la mission pastorale"
+            text="Web Prophecy construit des parcours utiles pour les paroissiens, les familles, les bénévoles et les secrétariats."
           />
           <div className="mt-10">
             <CardGrid cards={services} />
@@ -78,8 +78,8 @@ export default function HomePage() {
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <SectionHeader
-            eyebrow="Fonctionnalites"
-            title="Les briques attendues d'un systeme de communication paroissiale"
+            eyebrow="Fonctionnalités"
+            title="Les fondations d'une communication paroissiale moderne"
             align="center"
           />
           <div className="mt-10">
@@ -91,8 +91,8 @@ export default function HomePage() {
       <section className="soft-band px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <SectionHeader
-            eyebrow="Realisations"
-            title="Des projets catholiques concrets, presentes sans temoignages inventes"
+            eyebrow="Réalisations"
+            title="Des projets catholiques pensés pour informer, rassembler et servir"
           />
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             {portfolioItems.map((item) => (

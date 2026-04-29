@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: "Web Prophecy - Sites web pour paroisses catholiques",
     description:
-      "Sites rapides, accessibles et administrables pour aider les paroisses a communiquer, accueillir et garder le lien avec les fideles."
+      "Sites rapides, accessibles et administrables pour aider les paroisses à communiquer, accueillir et garder le lien avec les fidèles."
   },
   robots: {
     index: true,

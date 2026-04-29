@@ -7,7 +7,7 @@ type CTAProps = {
 
 export function CTA({
   title = "Un site paroissial plus clair commence par un audit.",
-  text = "Partagez votre contexte, vos contraintes et vos priorites. Web Prophecy vous aide a identifier les premiers leviers utiles."
+  text = "Partagez votre contexte, vos contraintes et vos priorités. Web Prophecy vous aide à identifier les premiers leviers vraiment utiles."
 }: CTAProps) {
   return (
     <section className="bg-ink px-4 py-16 text-white sm:px-6 lg:px-8">

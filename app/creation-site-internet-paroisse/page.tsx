@@ -11,9 +11,9 @@ import { pageMetadata } from "@/lib/seo";
 import { parishWebsiteServiceSchema, pillarFaqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Creation de site internet pour paroisse catholique",
+  title: "Création de site internet pour paroisse catholique",
   description:
-    "Web Prophecy cree des sites internet modernes pour paroisses catholiques : horaires de messes, agenda, dons en ligne, formulaires de sacrements, catechisme et actualites.",
+    "Web Prophecy crée des sites internet modernes pour paroisses catholiques : horaires de messes, agenda, dons en ligne, formulaires de sacrements, catéchisme et actualités.",
   path: "/creation-site-internet-paroisse"
 });
 
@@ -25,27 +25,27 @@ export default function CreationSiteInternetParoissePage() {
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_0.85fr] lg:items-center">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.12em] text-gold-dark">
-              Agence web specialisee pour paroisses catholiques
+              Agence web spécialisée pour paroisses catholiques
             </p>
             <h1 className="mt-4 text-4xl font-semibold leading-tight text-ink sm:text-5xl">
-              Creation de site internet pour paroisse catholique
+              Création de site internet pour paroisse catholique
             </h1>
             <p className="mt-6 text-lg leading-8 text-stone-650">
-              Web Prophecy concoit des sites modernes, rapides et faciles a mettre a jour pour
-              aider les paroisses a informer, accueillir, inscrire, collecter et garder le lien
-              avec leurs fideles.
+              Web Prophecy conçoit des sites modernes, rapides et faciles à mettre à jour pour
+              aider les paroisses à informer, accueillir, inscrire, collecter et garder le lien
+              avec leurs fidèles.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/contact" className="rounded-md bg-ink px-5 py-3 text-sm font-semibold text-white hover:bg-stone-800">
                 Demander un audit gratuit
               </Link>
               <a href="#fonctionnalites" className="inline-flex items-center gap-2 rounded-md border border-stone-300 px-5 py-3 text-sm font-semibold text-ink hover:bg-stone-100">
-                Voir les fonctionnalites <ArrowRight aria-hidden="true" size={18} />
+                Voir les fonctionnalités <ArrowRight aria-hidden="true" size={18} />
               </a>
             </div>
           </div>
           <div className="rounded-md border border-stone-200 bg-ivory p-6 shadow-sm">
-            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-gold-dark">A clarifier en priorite</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-gold-dark">À clarifier en priorité</p>
             <div className="mt-5 grid gap-3">
               {pains.slice(0, 5).map((pain) => (
                 <div key={pain} className="flex gap-3">
@@ -61,9 +61,9 @@ export default function CreationSiteInternetParoissePage() {
       <section id="fonctionnalites" className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <SectionHeader
-            eyebrow="Fonctionnalites essentielles"
+            eyebrow="Fonctionnalités essentielles"
             title="Tout ce qu'une paroisse doit rendre visible rapidement"
-            text="Un bon site paroissial repond d'abord aux questions concretes : horaires, contacts, sacrements, agenda, dons et inscriptions."
+            text="Un bon site paroissial répond d'abord aux questions concrètes : horaires, contacts, sacrements, agenda, dons et inscriptions."
           />
           <div className="mt-10">
             <CardGrid cards={featureCards} />
@@ -77,11 +77,11 @@ export default function CreationSiteInternetParoissePage() {
             <SectionHeader
               eyebrow="Site ou application"
               title="Commencer par le bon outil, pas par la solution la plus lourde"
-              text="Le site web donne la visibilite Google et centralise les informations publiques. Une PWA peut ensuite apporter un acces rapide, des notifications et une experience plus fidele."
+              text="Le site web donne la visibilité Google et centralise les informations publiques. Une PWA peut ensuite apporter un accès rapide, des notifications et une expérience plus fidèle."
             />
           </div>
           <div className="grid gap-4">
-            {["Performance mobile et Core Web Vitals", "Accessibilite pour personnes agees", "SEO local et donnees Schema.org", "Formulaires securises et consentement RGPD"].map((item) => (
+            {["Performance mobile et Core Web Vitals", "Accessibilité pour personnes âgées", "SEO local et données Schema.org", "Formulaires sécurisés et consentement RGPD"].map((item) => (
               <div key={item} className="rounded-md border border-stone-200 p-5">
                 <p className="font-semibold text-ink">{item}</p>
               </div>
@@ -93,8 +93,8 @@ export default function CreationSiteInternetParoissePage() {
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <SectionHeader
-            eyebrow="Methode"
-            title="Une realisation cadree pour ne pas compliquer le quotidien des equipes"
+            eyebrow="Méthode"
+            title="Une réalisation cadrée pour ne pas compliquer le quotidien des équipes"
           />
           <ol className="mt-10 grid gap-4 md:grid-cols-4">
             {processSteps.map((step, index) => (
@@ -111,7 +111,7 @@ export default function CreationSiteInternetParoissePage() {
 
       <section className="bg-white px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <SectionHeader eyebrow="FAQ" title="Questions frequentes des paroisses" align="center" />
+          <SectionHeader eyebrow="FAQ" title="Questions fréquentes des paroisses" align="center" />
           <FAQAccordion items={pillarFaq} />
         </div>
       </section>

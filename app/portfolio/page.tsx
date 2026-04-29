@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Portfolio",
   description:
-    "Decouvrez les projets catholiques accompagnes par Web Prophecy : Wikibible, radio catholique, sites paroissiaux et cas d'usage digitaux.",
+    "Découvrez les projets catholiques accompagnés par Web Prophecy : Wikibible, Heaven Radio, sites associatifs, parcours sacramentels et communication digitale.",
   path: "/portfolio"
 });
 
@@ -20,8 +20,8 @@ export default function PortfolioPage() {
         <div className="mx-auto max-w-7xl">
           <SectionHeader
             eyebrow="Portfolio"
-            title="Des projets catholiques utiles, construits avec discretion et exigence"
-            text="Cette page presente les realisations publiques et les accompagnements anonymises lorsque le contexte pastoral ou editorial demande de la discretion."
+            title="Des projets catholiques conçus pour être compris, visités et partagés"
+            text="Chaque réalisation répond à un besoin concret : transmettre, informer, mobiliser, accueillir ou créer un lien plus direct avec une communauté."
           />
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {portfolioItems.map((item) => (
@@ -29,7 +29,7 @@ export default function PortfolioPage() {
                 <div className="relative aspect-[16/9] bg-stone-100">
                   <Image
                     src={item.image}
-                    alt={`Capture d'ecran du projet ${item.title}`}
+                    alt={`Capture d'écran du projet ${item.title}`}
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"
                     className="object-cover"
@@ -53,10 +53,10 @@ export default function PortfolioPage() {
                       rel="noreferrer"
                       className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-ink underline"
                     >
-                      Ouvrir le site <ExternalLink aria-hidden="true" size={16} />
+                    Visiter le site <ExternalLink aria-hidden="true" size={16} />
                     </a>
                   ) : (
-                    <p className="mt-6 text-sm font-medium text-stone-500">URL a renseigner</p>
+                    <p className="mt-6 text-sm font-medium text-stone-500">Lien à renseigner</p>
                   )}
                 </div>
               </article>
@@ -64,7 +64,7 @@ export default function PortfolioPage() {
           </div>
         </div>
       </section>
-      <CTA title="Vous voulez un projet aussi clair pour votre paroisse ?" />
+      <CTA title="Vous voulez un site aussi clair pour votre paroisse, association ou communauté ?" />
     </main>
   );
 }

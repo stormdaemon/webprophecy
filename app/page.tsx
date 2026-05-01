@@ -34,7 +34,7 @@ export default function HomePage() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/contact" className="rounded-md bg-gold px-5 py-3 text-sm font-semibold text-ink hover:bg-gold-dark">
-                Demander un audit gratuit
+                Demander un diagnostic gratuit
               </Link>
               <Link href="/creation-site-internet-paroisse" className="inline-flex items-center gap-2 rounded-md border border-white/60 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10">
                 Découvrir l'offre paroissiale <ArrowRight aria-hidden="true" size={18} />

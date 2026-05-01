@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Contact",
   description:
-    "Contactez Web Prophecy pour un audit gratuit, une création de site paroissial, une refonte, une PWA ou un projet digital catholique.",
+    "Contactez Web Prophecy pour un diagnostic gratuit, une création de site paroissial, une refonte, une PWA ou un projet digital catholique.",
   path: "/contact"
 });
 
@@ -22,7 +22,7 @@ export default function ContactPage() {
             </h1>
             <p className="mt-5 text-lg leading-8 text-stone-650">
               Décrivez votre contexte, votre paroisse ou votre communauté, puis les besoins les
-              plus urgents. Vous pouvez aussi demander un audit gratuit de votre site actuel.
+              plus urgents. Vous pouvez aussi demander un diagnostic gratuit de votre site actuel.
             </p>
             <div className="mt-8 rounded-md border border-stone-200 bg-white p-6 text-sm leading-7 text-stone-650">
               <p className="font-semibold text-ink">Coordonnées</p>

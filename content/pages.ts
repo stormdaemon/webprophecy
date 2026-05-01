@@ -40,8 +40,8 @@ export const services = [
   },
   {
     icon: Search,
-    title: "SEO local",
-    text: "Structure technique, contenus et données cohérentes pour mieux apparaître sur Google et aider chacun à trouver la paroisse."
+    title: "Présence locale",
+    text: "Des informations cohérentes pour que chacun trouve facilement la paroisse, ses horaires, ses lieux et ses contacts."
   }
 ];
 
@@ -50,7 +50,7 @@ export const featureCards = [
   { icon: CreditCard, title: "Dons en ligne", text: "Des pages de soutien claires pour le denier, la quête, les offrandes ou une plateforme diocésaine." },
   { icon: Mail, title: "Newsletter", text: "Un lien régulier avec les paroissiens, les familles, les bénévoles et les visiteurs." },
   { icon: ShieldCheck, title: "RGPD et sécurité", text: "Formulaires sobres, consentement explicite, données minimales et bonnes pratiques techniques." },
-  { icon: MapPinned, title: "Présence locale", text: "Adresse, accès, Google Business Profile, Schema.org et informations pratiques cohérentes." },
+  { icon: MapPinned, title: "Présence locale", text: "Adresse, accès, lieux de culte et informations pratiques cohérentes." },
   { icon: UsersRound, title: "Administration simple", text: "Des contenus organisés pour que les équipes non techniques puissent garder le site vivant." }
 ];
 
@@ -105,7 +105,7 @@ export const portfolioItems = [
 export const processSteps = [
   "Audit du site actuel, des besoins pastoraux et des informations prioritaires.",
   "Architecture claire pour les fidèles, les familles, les visiteurs et le secrétariat.",
-  "Design responsive, développement Next.js, SEO technique et contenus essentiels.",
+  "Design responsive, développement Next.js, structure technique et contenus essentiels.",
   "Mise en ligne, vérification des formulaires, formation courte et suivi."
 ];
 
@@ -113,7 +113,7 @@ export const pillarFaq = [
   {
     question: "Combien coûte un site internet pour une paroisse ?",
     answer:
-      "Le prix dépend du nombre de pages, des formulaires, de l'administration, des intégrations de dons, de l'agenda et du niveau d'accompagnement. Web Prophecy commence par un audit pour proposer une solution adaptée au budget et aux priorités de la paroisse."
+      "Le prix dépend du nombre de pages, des formulaires, de l'administration, des intégrations de dons, de l'agenda et du niveau d'accompagnement. Web Prophecy commence par un diagnostic pour proposer une solution adaptée au budget et aux priorités de la paroisse."
   },
   {
     question: "Une petite paroisse a-t-elle besoin d'un site moderne ?",

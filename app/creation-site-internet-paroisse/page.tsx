@@ -37,7 +37,7 @@ export default function CreationSiteInternetParoissePage() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/contact" className="rounded-md bg-ink px-5 py-3 text-sm font-semibold text-white hover:bg-stone-800">
-                Demander un audit gratuit
+                Demander un diagnostic gratuit
               </Link>
               <a href="#fonctionnalites" className="inline-flex items-center gap-2 rounded-md border border-stone-300 px-5 py-3 text-sm font-semibold text-ink hover:bg-stone-100">
                 Voir les fonctionnalités <ArrowRight aria-hidden="true" size={18} />
@@ -77,11 +77,11 @@ export default function CreationSiteInternetParoissePage() {
             <SectionHeader
               eyebrow="Site ou application"
               title="Commencer par le bon outil, pas par la solution la plus lourde"
-              text="Le site web donne la visibilité Google et centralise les informations publiques. Une PWA peut ensuite apporter un accès rapide, des notifications et une expérience plus fidèle."
+              text="Le site web centralise les informations publiques et rend la paroisse facile à trouver. Une PWA peut ensuite offrir un accès rapide, des annonces et une expérience plus fidèle."
             />
           </div>
           <div className="grid gap-4">
-            {["Performance mobile et Core Web Vitals", "Accessibilité pour personnes âgées", "SEO local et données Schema.org", "Formulaires sécurisés et consentement RGPD"].map((item) => (
+            {["Pages rapides sur mobile", "Lecture confortable pour tous les âges", "Présence locale cohérente", "Formulaires sécurisés et consentement RGPD"].map((item) => (
               <div key={item} className="rounded-md border border-stone-200 p-5">
                 <p className="font-semibold text-ink">{item}</p>
               </div>

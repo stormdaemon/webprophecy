@@ -16,7 +16,7 @@ const privacy = [
   },
   {
     title: "Finalites",
-    text: "Ces donnees servent uniquement a repondre aux demandes, preparer un audit, etablir un devis, assurer le suivi commercial et securiser les echanges lies au projet."
+    text: "Ces donnees servent uniquement a repondre aux demandes, preparer un diagnostic, etablir un devis, assurer le suivi commercial et securiser les echanges lies au projet."
   },
   {
     title: "Formspree",

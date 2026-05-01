@@ -32,7 +32,7 @@ export function Header() {
           href="/contact"
           className="hidden rounded-md bg-gold px-4 py-2 text-sm font-semibold text-ink shadow-sm transition hover:bg-gold-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink sm:inline-flex"
         >
-          Demander un audit
+          Demander un diagnostic
         </Link>
 
         <details className="relative lg:hidden">

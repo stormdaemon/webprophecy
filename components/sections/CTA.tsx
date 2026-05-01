@@ -6,8 +6,8 @@ type CTAProps = {
 };
 
 export function CTA({
-  title = "Un site paroissial plus clair commence par un audit.",
-  text = "Partagez votre contexte, vos contraintes et vos priorités. Web Prophecy vous aide à identifier les premiers leviers vraiment utiles."
+  title = "Un site paroissial plus clair commence par un diagnostic.",
+  text = "Partagez votre contexte, vos contraintes et vos priorités. Web Prophecy vous aide à identifier les premières améliorations vraiment utiles."
 }: CTAProps) {
   return (
     <section className="bg-ink px-4 py-16 text-white sm:px-6 lg:px-8">
@@ -20,7 +20,7 @@ export function CTA({
           href="/contact"
           className="rounded-md bg-gold px-5 py-3 text-sm font-semibold text-ink shadow-sm transition hover:bg-gold-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
         >
-          Demander un audit gratuit
+          Demander un diagnostic gratuit
         </Link>
       </div>
     </section>

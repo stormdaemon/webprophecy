@@ -21,7 +21,7 @@ export const servicePages: SeoPage[] = [
     intro: "Une PWA permet à une paroisse de proposer une expérience mobile proche d'une application, sans imposer le coût et la maintenance d'une application native.",
     points: ["Installation sur smartphone", "Accès rapide aux horaires et annonces", "Notifications possibles", "Maintenance plus simple qu'une application native"],
     faq: [
-      { question: "Une paroisse a-t-elle besoin d'une application ?", answer: "Pas toujours. Le site reste la base SEO. La PWA devient utile quand les fidèles consultent souvent les horaires, annonces ou feuilles paroissiales." },
+      { question: "Une paroisse a-t-elle besoin d'une application ?", answer: "Pas toujours. Le site reste la base de la présence en ligne. La PWA devient utile quand les fidèles consultent souvent les horaires, annonces ou feuilles paroissiales." },
       { question: "Est-ce plus simple qu'une application native ?", answer: "Oui. Une PWA se déploie comme un site web et peut offrir une expérience mobile très fluide." }
     ]
   },
@@ -29,10 +29,10 @@ export const servicePages: SeoPage[] = [
     slug: "refonte-site-paroisse",
     path: "/refonte-site-paroisse",
     title: "Refonte de site paroissial",
-    description: "Moderniser un ancien site paroissial sans perdre le SEO, les contenus utiles ni la simplicité d'administration.",
+    description: "Moderniser un ancien site paroissial sans perdre les contenus utiles ni la simplicité d'administration.",
     eyebrow: "Refonte",
     intro: "Une refonte réussie clarifie les informations essentielles, améliore la performance mobile et transforme un site ancien en véritable outil pastoral.",
-    points: ["Audit des pages existantes", "Redirections SEO", "Nouvelle architecture claire", "Migration progressive des contenus utiles"],
+    points: ["Diagnostic des pages existantes", "Redirections propres", "Nouvelle architecture claire", "Migration progressive des contenus utiles"],
     faq: [
       { question: "Faut-il tout refaire ?", answer: "Non. On conserve ce qui sert, on fusionne ce qui se répète et on supprime ce qui brouille la lecture." },
       { question: "Le référencement peut-il être conservé ?", answer: "Oui, à condition de prévoir les redirections, les titres, les liens internes et le sitemap." }
@@ -41,14 +41,14 @@ export const servicePages: SeoPage[] = [
   {
     slug: "audit-site-paroissial",
     path: "/audit-site-paroissial",
-    title: "Audit gratuit de site paroissial",
-    description: "Recevoir un diagnostic clair de votre site paroissial : SEO, lisibilité, mobile, formulaires, dons et conversion.",
-    eyebrow: "Audit gratuit",
-    intro: "L'audit identifie les blocages concrets qui empêchent votre site de rendre service aux fidèles et aux équipes paroissiales.",
-    points: ["Analyse SEO et technique", "Audit mobile et accessibilité", "Relecture des parcours sacrements", "Plan d'action priorisé"],
+    title: "Diagnostic gratuit de site paroissial",
+    description: "Recevoir un regard clair sur votre site paroissial : lisibilité, mobile, formulaires, dons et parcours de contact.",
+    eyebrow: "Diagnostic gratuit",
+    intro: "Le diagnostic identifie les blocages concrets qui empêchent votre site de rendre service aux fidèles et aux équipes paroissiales.",
+    points: ["Analyse de la clarté du site", "Lecture mobile et accessibilité", "Relecture des parcours sacrements", "Priorités concrètes"],
     faq: [
-      { question: "Que reçoit-on après l'audit ?", answer: "Une synthèse claire des priorités : ce qui bloque, ce qui peut être corrigé vite et ce qui mérite une refonte." },
-      { question: "L'audit engage-t-il la paroisse ?", answer: "Non. Il sert d'abord à comprendre votre situation et à ouvrir un échange utile." }
+      { question: "Que reçoit-on après le diagnostic ?", answer: "Une synthèse claire des priorités : ce qui bloque, ce qui peut être corrigé vite et ce qui mérite une refonte." },
+      { question: "Le diagnostic engage-t-il la paroisse ?", answer: "Non. Il sert d'abord à comprendre votre situation et à ouvrir un échange utile." }
     ]
   }
 ];
@@ -109,14 +109,14 @@ export const featurePages: SeoPage[] = [
   {
     slug: "seo-local-paroisse",
     path: "/fonctionnalites/seo-local-paroisse",
-    title: "SEO local pour paroisse",
-    description: "Optimiser la visibilité locale d'une paroisse sur Google, Maps et les recherches conversationnelles.",
-    eyebrow: "SEO local",
+    title: "Présence locale pour paroisse",
+    description: "Rendre une paroisse facile à trouver par ville, quartier, horaires et services pastoraux.",
+    eyebrow: "Présence locale",
     intro: "Une paroisse doit être trouvée facilement par ville, quartier, horaires, sacrements et lieux de culte.",
-    points: ["Pages locales", "Google Business Profile", "Données Schema.org", "Cohérence nom, adresse, téléphone"],
+    points: ["Pages locales", "Fiche de contact claire", "Adresse et téléphone cohérents", "Informations utiles par lieu"],
     faq: [
-      { question: "Une paroisse peut-elle travailler son SEO local ?", answer: "Oui, surtout avec des informations cohérentes et des pages locales utiles." },
-      { question: "Google Maps compte-t-il ?", answer: "Oui, la fiche Google est souvent la première porte d'entrée." }
+      { question: "Une paroisse peut-elle améliorer sa présence locale ?", answer: "Oui, surtout avec des informations cohérentes, des pages locales utiles et des contacts faciles à trouver." },
+      { question: "Les cartes en ligne comptent-elles ?", answer: "Oui, elles sont souvent la première porte d'entrée pour une personne qui cherche une église, un horaire ou une adresse." }
     ]
   },
   {
@@ -147,7 +147,7 @@ export const localPages = [
 export const glossaryPages = [
   { slug: "site-paroissial", title: "Site paroissial", definition: "Un site paroissial centralise les horaires, contacts, sacrements, actualités, dons et informations pratiques d'une paroisse." },
   { slug: "pwa-paroisse", title: "PWA paroisse", definition: "Une PWA paroissiale est une application web installable sur smartphone, plus légère qu'une application native." },
-  { slug: "seo-local-paroisse", title: "SEO local paroisse", definition: "Le SEO local aide une paroisse à être trouvée sur Google par ville, quartier, horaires ou service pastoral." },
+  { slug: "seo-local-paroisse", title: "Présence locale paroissiale", definition: "La présence locale aide une paroisse à être trouvée par ville, quartier, horaires ou service pastoral." },
   { slug: "denier-en-ligne", title: "Denier en ligne", definition: "Le denier en ligne permet d'orienter les fidèles vers une contribution claire, souvent via une plateforme diocésaine." },
   { slug: "messesinfo", title: "MessesInfo", definition: "MessesInfo est un service de référence pour trouver des horaires de messes et lieux de culte catholiques." },
   { slug: "formulaire-sacrement", title: "Formulaire de sacrement", definition: "Un formulaire de sacrement recueille les informations utiles au premier contact pour un baptême, mariage ou certificat." }

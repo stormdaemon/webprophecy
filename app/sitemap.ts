@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { blogArticles } from "@/content/blog";
+import { publicBlogArticles } from "@/content/blog";
 import { allSeoRoutes } from "@/content/seo-growth";
 import { siteConfig } from "@/content/site";
 
@@ -20,7 +20,7 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const blogRoutes = blogArticles.map((article) => `/blog/${article.slug}`);
+  const blogRoutes = publicBlogArticles.map((article) => `/blog/${article.slug}`);
 
   return Array.from(new Set([...routes, "/blog", ...blogRoutes, ...allSeoRoutes])).map((route) => ({
     url: `${siteConfig.url}${route}`,

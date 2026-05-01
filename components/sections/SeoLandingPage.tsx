@@ -14,15 +14,15 @@ export function SeoLandingPage({ page }: { page: SeoPage }) {
             <p className="mt-6 text-lg leading-8 text-stone-650">{page.intro}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link href="/contact" className="rounded-md bg-ink px-5 py-3 text-sm font-semibold text-white hover:bg-stone-800">
-                Demander un audit gratuit
+                Demander un diagnostic gratuit
               </Link>
               <Link href="/creation-site-internet-paroisse" className="inline-flex items-center gap-2 rounded-md border border-stone-300 px-5 py-3 text-sm font-semibold text-ink hover:bg-stone-100">
-                Voir l'offre complète <ArrowRight aria-hidden="true" size={18} />
+                Découvrir l'accompagnement <ArrowRight aria-hidden="true" size={18} />
               </Link>
             </div>
           </div>
           <div className="rounded-md border border-stone-200 bg-ivory p-6 shadow-sm">
-            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-gold-dark">Ce que l'on met en place</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-gold-dark">Concrètement</p>
             <div className="mt-5 grid gap-3">
               {page.points.map((point) => (
                 <div key={point} className="flex gap-3">

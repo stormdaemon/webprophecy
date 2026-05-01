@@ -1,4 +1,4 @@
-export type BlogSource = {
+﻿export type BlogSource = {
   label: string;
   url: string;
 };
@@ -106,7 +106,7 @@ export const blogArticles: BlogArticle[] = [
     "Comment creer un site internet pour une paroisse catholique ?",
     "La methode concrete pour concevoir un site paroissial utile, clair, reference et simple a administrer.",
     "Creation de site",
-    "Recherche commerciale forte",
+    "Guide pratique",
     [googleHelpful, googleStructured, messesInfo],
     [
       {
@@ -119,21 +119,21 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Les pages indispensables",
         paragraphs: [
-          "Le socle minimum comprend une page d'accueil, une page horaires, une page sacrements, une page catechisme ou jeunesse, une page agenda, une page contact et une page dons. Chaque page doit repondre directement a une intention de recherche et proposer l'action suivante.",
-          "Pour etre utile sur Google et dans les reponses d'IA, chaque page doit etre explicite : nom de la paroisse, ville, lieux de culte, horaires, responsables, moyens de contact, contexte pastoral et liens internes. Les contenus vagues du type 'bienvenue sur notre site' ne suffisent plus."
+          "Le socle minimum comprend une page d'accueil, une page horaires, une page sacrements, une page catechisme ou jeunesse, une page agenda, une page contact et une page dons. Chaque page doit repondre directement a une question concrete et proposer l'etape suivante.",
+          "Pour etre utile aux visiteurs, chaque page doit etre explicite : nom de la paroisse, ville, lieux de culte, horaires, responsables, moyens de contact, contexte pastoral et liens internes. Les contenus vagues du type 'bienvenue sur notre site' ne suffisent plus."
         ]
       },
       {
         heading: "Le bon ordre de travail",
         paragraphs: [
           "Commencez par l'inventaire des informations : horaires reguliers, horaires exceptionnels, lieux, contacts, groupes, formulaires, documents et plateformes de dons. Ensuite seulement viennent le design et la technique.",
-          "Un site Next.js bien construit peut apporter performance, SEO technique et flexibilite. Mais la valeur vient surtout de la clarte editoriale : une information a jour, comprehensible, accessible sur mobile et facile a maintenir par une equipe paroissiale."
+          "Un site Next.js bien construit peut apporter performance, visibilite technique et flexibilite. Mais la valeur vient surtout de la clarte editoriale : une information a jour, comprehensible, accessible sur mobile et facile a maintenir par une equipe paroissiale."
         ]
       },
       {
-        heading: "Conversion pastorale",
+        heading: "Parcours pastoral",
         paragraphs: [
-          "La conversion, pour une paroisse, ne signifie pas vendre a tout prix. Elle signifie aider une personne a franchir une etape : trouver une messe, demander un sacrement, donner, s'inscrire, rejoindre un groupe ou contacter le secretariat.",
+          "Pour une paroisse, l'objectif n'est pas de vendre a tout prix. Elle signifie aider une personne a franchir une etape : trouver une messe, demander un sacrement, donner, s'inscrire, rejoindre un groupe ou contacter le secretariat.",
           "Web Prophecy peut auditer votre site actuel et transformer cette architecture en parcours clair, rapide et compatible avec les usages des fideles."
         ]
       }
@@ -150,7 +150,7 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Identifier ce qui bloque vraiment",
         paragraphs: [
-          "Un ancien site paroissial pose rarement un seul probleme. Il peut etre lent, non responsive, difficile a mettre a jour, peu lisible, mal reference ou rempli d'informations perimees. La refonte doit commencer par un audit des usages et non par le choix d'un theme graphique.",
+          "Un ancien site paroissial pose rarement un seul probleme. Il peut etre lent, non responsive, difficile a mettre a jour, peu lisible, mal reference ou rempli d'informations perimees. La refonte doit commencer par un diagnostic des usages et non par le choix d'un theme graphique.",
           "Le plus important est de regarder les pages qui rendent service : horaires, agenda, sacrements, contact, dons, catechisme. Si ces pages sont difficiles a trouver, la refonte a deja son premier objectif."
         ]
       },
@@ -162,7 +162,7 @@ export const blogArticles: BlogArticle[] = [
         ]
       },
       {
-        heading: "Eviter la rupture SEO",
+        heading: "Eviter la rupture visibilite",
         paragraphs: [
           "Lorsqu'une page ancienne a du trafic, elle doit etre redirigee vers son equivalent. Les titres, descriptions, liens internes et URLs doivent etre planifies. La Search Console permettra ensuite de surveiller l'indexation.",
           "Il faut aussi corriger les bases : une seule balise H1 par page, des titres utiles, des textes lisibles, des images optimisees, des liens internes et un sitemap propre."
@@ -172,7 +172,7 @@ export const blogArticles: BlogArticle[] = [
         heading: "Un lancement progressif",
         paragraphs: [
           "La refonte ideale peut etre livree par priorites : d'abord les pages qui servent le plus, puis les contenus secondaires, puis les modules plus avances. Cela evite de repousser la mise en ligne pendant des mois.",
-          "Un audit Web Prophecy permet de transformer votre site actuel en liste d'actions classees par impact pastoral et SEO."
+          "Un diagnostic Web Prophecy permet de transformer votre site actuel en liste d'actions classees par impact pastoral et visibilite."
         ]
       }
     ]
@@ -207,7 +207,7 @@ export const blogArticles: BlogArticle[] = [
         ]
       },
       {
-        heading: "Optimisation SEO locale",
+        heading: "Optimisation presence localee",
         paragraphs: [
           "Chaque lieu de culte peut avoir une adresse, une ville, un acces, des horaires et un lien cartographique. Ces donnees aident les fideles et clarifient l'entite pour les moteurs de recherche.",
           "Web Prophecy peut concevoir une page horaires qui sert autant les paroissiens que Google, sans rendre l'administration lourde."
@@ -321,7 +321,7 @@ export const blogArticles: BlogArticle[] = [
         ]
       },
       {
-        heading: "Texte oriente conversion",
+        heading: "Texte oriente parcours d'action",
         paragraphs: [
           "Une bonne page n'accumule pas les arguments. Elle explique le sens, donne des exemples concrets et propose une action claire.",
           "Web Prophecy peut rediger cette page avec un ton respectueux, pastoral et efficace."
@@ -334,7 +334,7 @@ export const blogArticles: BlogArticle[] = [
     "Formulaire de demande de bapteme : quelles informations demander ?",
     "Les champs utiles pour centraliser une demande de bapteme sans transformer le formulaire en dossier administratif.",
     "Sacrements",
-    "Formulaire conversion",
+    "Formulaire parcours d'action",
     [cefSacrements, cefCertificat, cnilAssociations],
     [
       {
@@ -466,7 +466,7 @@ export const blogArticles: BlogArticle[] = [
         ]
       },
       {
-        heading: "SEO et donnees evenementielles",
+        heading: "visibilite et donnees evenementielles",
         paragraphs: [
           "Quand un evenement est public et important, une page detaillee peut etre indexee. Elle doit avoir un titre clair, une description, un lieu et un lien d'inscription ou de contact.",
           "Les donnees structurees peuvent aider les moteurs a comprendre le contenu, mais elles ne remplacent pas une page lisible."
@@ -559,17 +559,17 @@ export const blogArticles: BlogArticle[] = [
   ),
   article(
     "seo-local-paroisse-google",
-    "SEO local pour paroisse : comment etre trouve sur Google ?",
+    "presence locale pour paroisse : comment etre trouve sur Google ?",
     "Les bases du referencement local pour une paroisse, un sanctuaire ou une communaute.",
-    "SEO local",
-    "Recherche locale",
+    "presence locale",
+    "Presence locale",
     [googleLocal, googleStructured],
     [
       {
         heading: "La paroisse est une entite locale",
         paragraphs: [
           "Une paroisse a des lieux, des horaires, une ville, des contacts et des services pastoraux. Google doit comprendre ces informations, et les visiteurs doivent les lire sans effort.",
-          "Le SEO local commence donc par la coherence : nom, adresse, telephone, site, lieux de culte, horaires et liens cartographiques."
+          "Le presence locale commence donc par la coherence : nom, adresse, telephone, site, lieux de culte, horaires et liens cartographiques."
         ]
       },
       {
@@ -599,7 +599,7 @@ export const blogArticles: BlogArticle[] = [
     "google-business-profile-paroisse",
     "Google Business Profile pour une paroisse : que faut-il verifier ?",
     "Adresse, horaires, photos, site et coherence NAP : la checklist pour une fiche Google utile.",
-    "SEO local",
+    "presence locale",
     "Question Google Maps",
     [googleLocal],
     [
@@ -628,7 +628,7 @@ export const blogArticles: BlogArticle[] = [
         heading: "Maintenance",
         paragraphs: [
           "La fiche n'est pas un projet ponctuel. Les horaires exceptionnels, photos et annonces doivent etre mis a jour selon les temps forts.",
-          "Web Prophecy peut inclure l'audit Google Business Profile dans une refonte paroissiale."
+          "Web Prophecy peut inclure le diagnostic Google Business Profile dans une refonte paroissiale."
         ]
       }
     ]
@@ -665,7 +665,7 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Audit utile",
         paragraphs: [
-          "Un audit accessibilite peut commencer simplement : contraste, navigation clavier, structure H1/H2, labels, taille des zones cliquables.",
+          "Un diagnostic accessibilite peut commencer simplement : contraste, navigation clavier, structure H1/H2, labels, taille des zones cliquables.",
           "Web Prophecy integre ces points dans la conception des sites paroissiaux."
         ]
       }
@@ -751,7 +751,7 @@ export const blogArticles: BlogArticle[] = [
     "schema-org-site-paroisse",
     "Schema.org pour paroisse : quelles donnees structurees utiliser ?",
     "Organization, Church, LocalBusiness, Event, Breadcrumb et Article : quand les utiliser.",
-    "SEO technique",
+    "visibilite technique",
     "Question technique",
     [googleStructured, googleLocal, { label: "Google Search Central - breadcrumb", url: "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb" }],
     [
@@ -780,7 +780,7 @@ export const blogArticles: BlogArticle[] = [
         heading: "Priorite",
         paragraphs: [
           "Commencez par Organization, Breadcrumb, Article pour le blog, puis lieux et evenements si les pages correspondantes existent.",
-          "Web Prophecy integre ces donnees dans une architecture SEO propre."
+          "Web Prophecy integre ces donnees dans une architecture visibilite propre."
         ]
       }
     ]
@@ -803,7 +803,7 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Ce qui fait varier le budget",
         paragraphs: [
-          "Les principaux facteurs sont la strategie SEO, la redaction, les integrations externes, les formulaires, la migration, la formation et la maintenance.",
+          "Les principaux facteurs sont la strategie visibilite, la redaction, les integrations externes, les formulaires, la migration, la formation et la maintenance.",
           "Un site tres bon marche peut devenir couteux s'il est impossible a mettre a jour ou mal reference."
         ]
       },
@@ -817,7 +817,7 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Audit avant devis",
         paragraphs: [
-          "Un audit gratuit permet de classer les priorites et d'eviter de payer pour des fonctionnalites inutiles.",
+          "Un diagnostic gratuit permet de classer les priorites et d'eviter de payer pour des fonctionnalites inutiles.",
           "Web Prophecy adapte la proposition au contexte pastoral et au budget disponible."
         ]
       }
@@ -834,7 +834,7 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "WordPress est connu, Next.js est robuste",
         paragraphs: [
-          "WordPress peut convenir si l'equipe veut publier souvent avec une interface familiere. Next.js convient tres bien pour un site rapide, controle, durable et optimise SEO.",
+          "WordPress peut convenir si l'equipe veut publier souvent avec une interface familiere. Next.js convient tres bien pour un site rapide, controle, durable et optimise visibilite.",
           "Le bon choix depend de l'equipe, des contenus, du budget et du besoin d'evolution."
         ]
       },
@@ -855,7 +855,7 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Recommendation",
         paragraphs: [
-          "Pour un site vitrine paroissial SEO-first, Next.js est souvent excellent. Pour une equipe qui publie beaucoup et veut une interface complete, un CMS peut etre ajoute.",
+          "Pour un site vitrine paroissial visibilite-first, Next.js est souvent excellent. Pour une equipe qui publie beaucoup et veut une interface complete, un CMS peut etre ajoute.",
           "Web Prophecy peut proposer l'architecture la plus sobre selon votre contexte."
         ]
       }
@@ -902,7 +902,7 @@ export const blogArticles: BlogArticle[] = [
   article(
     "feuille-paroissiale-numerique",
     "Feuille paroissiale numerique : PDF ou page web ?",
-    "Comment diffuser les annonces paroissiales sans perdre l'accessibilite et le SEO.",
+    "Comment diffuser les annonces paroissiales sans perdre l'accessibilite et le visibilite.",
     "Communication",
     "Question contenu",
     [rgga, googleHelpful],
@@ -1016,7 +1016,7 @@ export const blogArticles: BlogArticle[] = [
     "visibilite-ia-paroisse",
     "Comment rendre une paroisse visible dans les reponses des IA ?",
     "Structurer les contenus pour les recherches conversationnelles et les moteurs IA.",
-    "IA et SEO",
+    "IA et visibilite",
     "Recherche emergente",
     [googleHelpful, googleStructured, googleLocal],
     [
@@ -1045,7 +1045,7 @@ export const blogArticles: BlogArticle[] = [
         heading: "Contenu utile avant volume",
         paragraphs: [
           "Publier beaucoup d'articles faibles n'aide pas. Il faut des contenus complets, sourcés, utiles et relies aux services pastoraux.",
-          "Web Prophecy construit des contenus orientes Google, IA et conversion pastorale sans tomber dans le bourrage de mots-cles."
+          "Web Prophecy construit des contenus orientes Google, IA et parcours pastoral sans tomber dans le bourrage de mots-cles."
         ]
       }
     ]
@@ -1053,7 +1053,7 @@ export const blogArticles: BlogArticle[] = [
   article(
     "audit-site-paroissial",
     "Audit de site paroissial : la checklist en 30 points",
-    "Les points a verifier avant une refonte ou une amelioration SEO.",
+    "Les points a verifier avant une refonte ou une amelioration visibilite.",
     "Audit",
     "Conversion audit",
     [googleHelpful, googleLocal, rgga, cnilAssociations],
@@ -1083,7 +1083,7 @@ export const blogArticles: BlogArticle[] = [
         heading: "Audit experience",
         paragraphs: [
           "Testez le site avec une personne qui ne le connait pas. Demandez-lui de trouver une messe, un bapteme, un contact et une inscription catechisme.",
-          "Web Prophecy propose un audit gratuit pour transformer ces constats en plan d'action."
+          "Web Prophecy propose un diagnostic gratuit pour transformer ces constats en plan d'action."
         ]
       }
     ]
@@ -1092,7 +1092,7 @@ export const blogArticles: BlogArticle[] = [
     "contenu-seo-paroisse-questions-google",
     "Quelles questions Google traiter sur un site de paroisse ?",
     "La liste des intentions a couvrir pour attirer des visiteurs utiles.",
-    "SEO editorial",
+    "visibilite editorial",
     "Recherche questions",
     [googleHelpful],
     [
@@ -1113,14 +1113,14 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Format de reponse",
         paragraphs: [
-          "Commencez par une reponse directe, puis expliquez les cas, puis donnez une checklist, puis proposez un audit ou un contact.",
+          "Commencez par une reponse directe, puis expliquez les cas, puis donnez une checklist, puis proposez un diagnostic ou un contact.",
           "Ce format sert les lecteurs, Google et les recherches conversationnelles."
         ]
       },
       {
         heading: "Maillage",
         paragraphs: [
-          "Chaque article doit pointer vers une page service, une page contact ou un audit. Sans maillage, le blog informe mais ne convertit pas.",
+          "Chaque article doit pointer vers une page service, une page contact ou un diagnostic. Sans maillage, le blog informe mais ne convertit pas.",
           "Web Prophecy peut batir un calendrier editorial complet pour votre secteur catholique."
         ]
       }
@@ -1156,7 +1156,7 @@ export const blogArticles: BlogArticle[] = [
         ]
       },
       {
-        heading: "SEO local et national",
+        heading: "presence locale et national",
         paragraphs: [
           "Un sanctuaire peut viser des recherches locales et nationales. Il faut donc combiner pages pratiques, contenus spirituels et donnees structurees.",
           "Web Prophecy adapte l'approche aux paroisses, sanctuaires, abbayes et communautes."
@@ -1205,7 +1205,7 @@ export const blogArticles: BlogArticle[] = [
   article(
     "performance-mobile-site-paroisse",
     "Performance mobile : pourquoi un site paroissial doit charger vite ?",
-    "Vitesse, images, Core Web Vitals et experience mobile pour les visiteurs presses.",
+    "Vitesse, images, vitesse de chargement et experience mobile pour les visiteurs presses.",
     "Performance",
     "Question technique",
     [googleHelpful],
@@ -1227,7 +1227,7 @@ export const blogArticles: BlogArticle[] = [
       {
         heading: "Next.js et statique",
         paragraphs: [
-          "Une architecture Next.js statique ou serveur bien pensee peut fournir des pages rapides, un bon SEO technique et une experience stable.",
+          "Une architecture Next.js statique ou serveur bien pensee peut fournir des pages rapides, un bon visibilite technique et une experience stable.",
           "Le choix technique doit cependant rester invisible pour l'utilisateur : ce qui compte, c'est que la page reponde vite."
         ]
       },
@@ -1242,6 +1242,15 @@ export const blogArticles: BlogArticle[] = [
   )
 ];
 
+const hiddenArticleSlugs = new Set([
+  "visibilite-ia-paroisse",
+  "contenu-seo-paroisse-questions-google",
+  "schema-org-site-paroisse",
+  "seo-local-paroisse-google"
+]);
+
+export const publicBlogArticles = blogArticles.filter((articleItem) => !hiddenArticleSlugs.has(articleItem.slug));
+
 export function getBlogArticle(slug: string) {
-  return blogArticles.find((articleItem) => articleItem.slug === slug);
+  return publicBlogArticles.find((articleItem) => articleItem.slug === slug);
 }

@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "Glossaire digital catholique",
-  description: "Définitions SEO et digitales pour mieux comprendre les sites paroissiaux, PWA, MessesInfo, denier en ligne et formulaires de sacrements.",
+  description: "Définitions simples pour mieux comprendre les sites paroissiaux, PWA, MessesInfo, denier en ligne et formulaires de sacrements.",
   path: "/glossaire"
 });
 

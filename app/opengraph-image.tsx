@@ -27,7 +27,7 @@ export default function OpengraphImage() {
           Sites web modernes pour paroisses catholiques
         </div>
         <div style={{ marginTop: 30, maxWidth: 820, color: "#d7d3cc", fontSize: 30, lineHeight: 1.35 }}>
-          Horaires, sacrements, dons, catéchisme, SEO local et communication paroissiale.
+          Horaires, sacrements, dons, catéchisme, présence locale et communication paroissiale.
         </div>
       </div>
     ),

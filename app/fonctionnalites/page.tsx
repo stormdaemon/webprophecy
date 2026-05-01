@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
   title: "Fonctionnalités pour sites paroissiaux",
-  description: "Horaires de messes, dons en ligne, formulaires de sacrements, catéchisme, SEO local et accessibilité.",
+  description: "Horaires de messes, dons en ligne, formulaires de sacrements, catéchisme, présence locale et accessibilité.",
   path: "/fonctionnalites"
 });
 

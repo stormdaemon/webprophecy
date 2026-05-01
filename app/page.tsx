@@ -23,10 +23,10 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="brand-glass mb-8 flex h-24 w-64 items-center justify-center rounded-md border border-white/70 p-3 shadow-lg sm:w-80">
               <Image
-                src="/images/logo-web-prophecy-cropped.png"
+                src="/images/logo-web-prophecy-transparent.png"
                 alt="Web Prophecy"
-                width={660}
-                height={496}
+                width={500}
+                height={500}
                 priority
                 className="h-full w-full object-contain"
               />

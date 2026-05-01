@@ -10,10 +10,10 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3" aria-label="Web Prophecy - Accueil">
           <span className="brand-glass flex h-14 w-40 items-center justify-center rounded-md border border-vitrail-light p-1.5 shadow-sm sm:w-48">
             <Image
-              src="/images/logo-web-prophecy-cropped.png"
+              src="/images/logo-web-prophecy-transparent.png"
               alt="Web Prophecy"
-              width={420}
-              height={316}
+              width={500}
+              height={500}
               priority
               className="h-full w-full object-contain"
             />

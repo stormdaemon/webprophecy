@@ -11,8 +11,8 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#071f43",
     icons: [
       {
-        src: "/images/logo-web-prophecy-cropped.png",
-        sizes: "1109x833",
+        src: "/images/logo-web-prophecy-transparent.png",
+        sizes: "500x500",
         type: "image/png"
       }
     ]

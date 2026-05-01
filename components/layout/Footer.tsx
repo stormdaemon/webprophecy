@@ -9,10 +9,10 @@ export function Footer() {
         <div>
           <div className="brand-glass flex h-24 w-64 items-center justify-center rounded-md border border-white/20 p-3">
             <Image
-              src="/images/logo-web-prophecy-cropped.png"
+              src="/images/logo-web-prophecy-transparent.png"
               alt={siteConfig.name}
-              width={660}
-              height={496}
+              width={500}
+              height={500}
               className="h-full w-full object-contain"
             />
           </div>

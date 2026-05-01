@@ -21,10 +21,20 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-ink/85 via-ink/65 to-ink/20" aria-hidden="true" />
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="max-w-3xl">
+            <div className="brand-glass mb-8 flex h-24 w-64 items-center justify-center rounded-md border border-white/70 p-3 shadow-lg sm:w-80">
+              <Image
+                src="/images/logo-web-prophecy-cropped.png"
+                alt="Web Prophecy"
+                width={660}
+                height={496}
+                priority
+                className="h-full w-full object-contain"
+              />
+            </div>
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-gold">
               Agence digitale catholique
             </p>
-            <h1 className="mt-5 text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 font-serif text-5xl font-semibold leading-tight sm:text-6xl lg:text-7xl">
               Sites web et applications modernes pour paroisses catholiques
             </h1>
             <p className="mt-6 text-lg leading-8 text-stone-100 sm:text-xl">

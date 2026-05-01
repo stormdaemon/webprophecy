@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cormorant_Garamond, Geist } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
@@ -12,9 +12,10 @@ const geistSans = Geist({
   subsets: ["latin"]
 });
 
-const geistMono = Geist_Mono({
+const cormorant = Cormorant_Garamond({
   variable: "--font-geist-serif",
-  subsets: ["latin"]
+  subsets: ["latin"],
+  weight: ["500", "600", "700"]
 });
 
 export const metadata: Metadata = {
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#17211f",
+  themeColor: "#071f43",
   width: "device-width",
   initialScale: 1
 };
@@ -61,7 +62,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
+      <body className={`${geistSans.variable} ${cormorant.variable} font-sans antialiased`}>
         <JsonLd data={organizationSchema} />
         <Header />
         {children}

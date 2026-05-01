@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Cross, Menu } from "lucide-react";
+import Image from "next/image";
+import { Menu } from "lucide-react";
 import { navigation } from "@/content/site";
 
 export function Header() {
@@ -7,12 +8,15 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-stone-200/80 bg-white/92 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="Web Prophecy - Accueil">
-          <span className="flex h-10 w-10 items-center justify-center rounded-md bg-ink text-white">
-            <Cross aria-hidden="true" size={20} />
-          </span>
-          <span>
-            <span className="block text-base font-semibold text-ink">Web Prophecy</span>
-            <span className="block text-xs text-stone-500">Agence digitale catholique</span>
+          <span className="brand-glass flex h-14 w-40 items-center justify-center rounded-md border border-vitrail-light p-1.5 shadow-sm sm:w-48">
+            <Image
+              src="/images/logo-web-prophecy-cropped.png"
+              alt="Web Prophecy"
+              width={420}
+              height={316}
+              priority
+              className="h-full w-full object-contain"
+            />
           </span>
         </Link>
 
@@ -21,7 +25,7 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-md px-3 py-2 text-sm font-medium text-stone-700 transition hover:bg-stone-100 hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+              className="rounded-md px-3 py-2 text-sm font-medium text-stone-700 transition hover:bg-vitrail-light hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
             >
               {item.label}
             </Link>

@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #17211f;
-  --color-gold: #d9b766;
-  --color-gold-dark: #b88d32;
-  --color-sage: #dfe8dd;
+  --color-ink: #071f43;
+  --color-gold: #f2bd2f;
+  --color-gold-dark: #c58a16;
+  --color-sage: #e5eef7;
   --color-ivory: #fbfaf6;
-  --color-clay: #9b5f43;
+  --color-clay: #2f78b7;
+  --color-vitrail: #2f78b7;
+  --color-vitrail-light: #dbeaf7;
   --color-stone-650: #57534e;
   --font-sans: var(--font-geist-sans);
   --font-serif: var(--font-geist-serif);
@@ -37,10 +39,16 @@ a {
 
 .hero-visual {
   background:
-    linear-gradient(135deg, rgba(23, 33, 31, 0.78), rgba(23, 33, 31, 0.36)),
+    linear-gradient(135deg, rgba(7, 31, 67, 0.82), rgba(47, 120, 183, 0.28)),
     url("/images/hero-web-prophecy.png");
   background-position: center;
   background-size: cover;
+}
+
+.brand-glass {
+  background:
+    linear-gradient(135deg, rgba(47, 120, 183, 0.14), rgba(242, 189, 47, 0.12)),
+    #ffffff;
 }
 
 .soft-band {

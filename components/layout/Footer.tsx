@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { footerLinks, navigation, siteConfig } from "@/content/site";
 
 export function Footer() {
@@ -6,7 +7,15 @@ export function Footer() {
     <footer className="border-t border-stone-200 bg-ink text-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.2fr_1fr_1fr] lg:px-8">
         <div>
-          <p className="text-lg font-semibold">{siteConfig.name}</p>
+          <div className="brand-glass flex h-24 w-64 items-center justify-center rounded-md border border-white/20 p-3">
+            <Image
+              src="/images/logo-web-prophecy-cropped.png"
+              alt={siteConfig.name}
+              width={660}
+              height={496}
+              className="h-full w-full object-contain"
+            />
+          </div>
           <p className="mt-3 max-w-md text-sm leading-7 text-stone-300">
             Sites web, applications et systèmes de communication numérique pour paroisses,
             diocèses et communautés catholiques.
